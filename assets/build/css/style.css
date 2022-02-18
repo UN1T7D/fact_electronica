@@ -1,0 +1,41 @@
+.container-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+.registration_form {
+  position: relative;
+}
+
+.form {
+  border-radius: 10px;
+  border: 1px solid #949494;
+  padding: 20px;
+  background: #ededed;
+}
+
+.login_wrapper {
+  right: 0px;
+  margin: 0px auto;
+  margin-top: 5%;
+  max-width: 400px;
+  position: relative;
+}
+
+
+.container-wrapper .item-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.container-wrapper .item-wrapper img{
+    width: 80%;
+}

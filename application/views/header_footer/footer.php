@@ -1,3 +1,5 @@
+
+
 <!-- jQuery -->
 <script src="<?=base_url()?>assets/vendors/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap -->
@@ -37,7 +39,10 @@
 <script src="<?=base_url()?>assets/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 
 <!-- Custom Theme Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.0/dist/sweetalert2.all.min.js"></script>
 <script src="<?=base_url()?>assets/build/js/custom.min.js"></script>
+<script src="<?=base_url()?>assets/build/js/jquery.mask.js"></script>
+<script src="<?=base_url()?>assets/build/js/login.js"></script>
 
 <!-- Dropzone.js -->
 <script src="<?=base_url()?>assets/vendors/dropzone/dist/min/dropzone.min.js"></script>
