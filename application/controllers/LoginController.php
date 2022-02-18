@@ -24,10 +24,14 @@ class LoginController extends CI_Controller {
 		$this->load->view('login');
 		$this->load->view('header_footer/footer');
 	}
-	public function home_dashboar()
+
+
+	public function home_dashboard()
 	{
 		$this->load->view('header_footer/header');
-		$this->load->view('home');
+		$this->load->view('modules/dashboard/template/sidebar');
+		$this->load->view('modules/dashboard/panel');
+		$this->load->view('modules/dashboard/template/footer');
 		$this->load->view('header_footer/footer');
 	}
 }
